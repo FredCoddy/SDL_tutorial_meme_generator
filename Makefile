@@ -1,8 +1,5 @@
-exec: main.o
-	gcc main.o -o exec
+main : main.o 
+	g++ main.o  -o main `sdl2-config --libs`
 
-main.o: main.c
-	gcc -c -g main.c
-
-lancer: exec
-	./exec
+main.o : main.cpp 
+	g++ -c main.cpp  -o main.o  
