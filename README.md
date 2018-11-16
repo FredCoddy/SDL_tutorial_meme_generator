@@ -25,20 +25,26 @@ Fredo - Pauline - Julien
 ```
 
 ## Installer SDL
-
-```
+### SDL
+```bash
 sudo apt-get install libsdl1.2-dbg
 ```
 
 [Guide d'installation](https://wiki.libsdl.org/Installation)
 
+### SDL2
+```bash
+apt-get install libsdl2-dev
+```
+[Guide d'installation](http://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/index.php)
+
 
 # Utilisation 
 
-```
+```bash
 # Générer l'exécutable 
 make 
 
 # Lancer l'exécutable
-./exec 
+./main 
 ```
