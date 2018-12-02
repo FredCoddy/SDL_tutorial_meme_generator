@@ -1,8 +1,7 @@
-exec: main.o
-	gcc main.o -o exec
+LINKER_FLAGS = -lSDL2 -lSDL2_image
 
-main.o: main.c
-	gcc -c -g main.c
+main : main.o 
+	g++ main.o  -o main $(LINKER_FLAGS)
 
-lancer: exec
-	./exec
+main.o : main.cpp 
+	g++ -c main.cpp  $(LINKER_FLAGS)  -o main.o  
