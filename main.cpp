@@ -23,7 +23,6 @@ int main(int argc, char **argv)
 	int texW = 200;
 	int texH = 200;
 	SDL_QueryTexture(texture, NULL, NULL, &texW, &texH);
-	SDL_Rect dstrect = {300, 200, texW, texH};
 
 	while (!quit)
 	{
@@ -35,6 +34,7 @@ int main(int argc, char **argv)
 			quit = true;
 			break;
 		}
+		SDL_Rect dstrect = {300, 200, texW, texH};
         SDL_RenderClear(renderer);
 		SDL_RenderCopy(renderer, texture, NULL, &dstrect);
 		SDL_RenderPresent(renderer);
