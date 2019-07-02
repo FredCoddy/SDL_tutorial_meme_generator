@@ -1,50 +1,58 @@
-<center>
+# Develop multimedia apps with SDL
 
- # Programmer des applications multi-média avec la SDL. 
 
-Master 2 - 1er semestre
+Second year Bioinformatics Master degree
 
-UE : Génie logiciel -- Cours/TD inversés 
+Software engineering -- Revers courses
 
 JUNG Frédéric : frederic.jung@etu.u-bordeaux.fr
 
-Fredo - Pauline - Julien
+**Team:** Frederic - Pauline - Julien
 
-</center>
+----
 
-- Préparer un cours de 10mn avec des transparents.
-- Préparer un TD de 15mn avec des exercices machine à destination des autres étudiants de la promotion.
-- Les cours auront lieu sur 2 séances en décembre. 
 
-# Programmes requis 
+# Tutorial: Cyril meme generator !
 
-## Installer make 
+Clone this repo to create your own meme generator ! You may use this snippet and implement class and method to to display the image and text you want. Images sample are available in `/img` and fonts in `/fonts`.
+
+# Excepted results
+
+
+![giff example](img/cyril_ttf.png)
+
+
+## Prerequisites
+
+- Install Make
 
 ```
  apt-get install build-essential make
 ```
 
-## Installer SDL
-### SDL
+
+- Install SDL
+
 ```bash
 sudo apt-get install libsdl1.2-dbg
 ```
 
-[Guide d'installation](https://wiki.libsdl.org/Installation)
+[Install tutorial](https://wiki.libsdl.org/Installation)
 
-### SDL2
+- Install SDL2
+
 ```bash
 apt-get install libsdl2-dev
 ```
-[Guide d'installation](http://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/index.php)
+[install tutorial](http://lazyfoo.net/tutorials/SDL/01_hello_SDL/linux/index.php)
 
 
-# Utilisation 
+## Usage
 
 ```bash
-# Générer l'exécutable 
-make 
+# Generate exec file
+make
 
-# Lancer l'exécutable
-./main 
+# run app
+./main
 ```
