@@ -14,7 +14,16 @@ JUNG Frédéric : frederic.jung@etu.u-bordeaux.fr
 
 # Tutorial: Cyril meme generator !
 
-Clone this repo to create your own meme generator ! You may use this snippet and implement class and method to to display the image and text you want. Images sample are available in `/img` and fonts in `/fonts`.
+
+**Goals:**
+
+ - learn to use code snippet
+ - parctice `C++` and `C` languages 
+ - use `SDL` (Simple DirectMedia Layer) library
+ - use `Make` commands 
+
+
+Clone this repo to create your own meme generator ! You may use this snippet and implement class and method to to display the image and text you want. You may create a new branch and run your app locally. Images sample are available in `/img` and fonts in `/fonts`.
 
 # Excepted results
 
