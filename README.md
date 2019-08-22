@@ -60,8 +60,8 @@ apt-get install libsdl2-dev
 
 ```bash
 # Generate exec file
-make
+$ make
 
 # run app
-./main
+$ ./main
 ```
